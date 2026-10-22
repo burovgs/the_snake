@@ -134,7 +134,6 @@ class Snake(GameObject):
         self.next_direction = None
         self.last = None
 
-
     def draw(self):
         """Отрисовывает змейку на игровой поверхности и затирает след."""
         for position in self.positions:
